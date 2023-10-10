@@ -19,3 +19,18 @@ else
 {
     Console.WriteLine("???");
 }
+
+switch (Caractere)
+{
+    case 'o':
+    case 'O':
+        Console.WriteLine("Affirmatif");
+        break;
+    case 'n':
+    case 'N':
+        Console.WriteLine("Négatif");
+        break;
+    default:
+        Console.WriteLine("???");
+        break;
+}
